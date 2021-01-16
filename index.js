@@ -111,8 +111,9 @@ function checkScores(a){
             else{
             result=chalk.green("Sorry !!! You couldn't beat the High score")
             }
-            return result
+            
         }
+        return result
 
 }
 console.log(checkScores(scores))
